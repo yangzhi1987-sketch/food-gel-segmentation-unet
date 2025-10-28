@@ -1,0 +1,19 @@
+name: foodgel
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - numpy
+  - scipy
+  - scikit-image
+  - opencv
+  - matplotlib
+  - pandas
+  - pip
+  - pip:
+      - segmentation-models-pytorch
+      - albumentations
+      - tqdm
