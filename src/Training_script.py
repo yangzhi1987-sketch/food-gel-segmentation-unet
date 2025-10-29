@@ -51,7 +51,7 @@ for i in range(1, 100):
         resized_img_paths.append(img_path)
         resized_mask_paths.append(mask_path)
 
-# ✅ Collect ~1000 augmented data
+# ✅ Collect augmented data
 aug_img_files = sorted([f for f in os.listdir(aug_img_dir) if f.endswith(".jpg")])[:1000]
 aug_img_paths = [os.path.join(aug_img_dir, f) for f in aug_img_files]
 aug_mask_paths = [os.path.join(aug_mask_dir, f.replace(".jpg", ".png")) for f in aug_img_files]
