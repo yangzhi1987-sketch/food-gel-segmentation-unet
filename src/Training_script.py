@@ -10,7 +10,7 @@ from datetime import datetime
 import segmentation_models_pytorch as smp
 
 # ✅ Folder paths (your structure)
-resized_img_dir = "/Users//Protein_Gel_AI_Project/confocal_dataset/train/resized_images"
+resized_img_dir = "/Users/Protein_Gel_AI_Project/confocal_dataset/train/resized_images"
 resized_mask_dir = "/Users/Protein_Gel_AI_Project/confocal_dataset/train/resized_masks"
 aug_img_dir = "/Users//Protein_Gel_AI_Project/confocal_dataset/train/augmented_images"
 aug_mask_dir = "/Users/Documents/Protein_Gel_AI_Project/confocal_dataset/train/augmented_masks"
